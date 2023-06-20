@@ -28,5 +28,22 @@ class DonationModel {
         return totalAmount
     }
 
+    fun checKAmount(): String {
 
-}
+        if(totalAmount >=200 && totalAmount<=500){
+
+            return "#F31A1A"
+        }
+       if(totalAmount >=500 && totalAmount<=1000){
+
+            return "#FFFB33"
+        }
+
+            return "#58FF11"
+        }
+
+
+
+    }
+
+
